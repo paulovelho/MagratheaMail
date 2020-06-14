@@ -1,0 +1,35 @@
+{
+  "name": "magratha-mail",
+  "version": "2.0",
+  "description": "Magrathea Mail",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "env NODE_ENV=test mocha './{,!(node_modules)/**}/*.spec.js*' --exit"
+  },
+  "author": "Platypus Technology",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "chai": "^4.1.2",
+    "color-logs": "^0.6.1",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.15",
+    "mocha": "^7.1.2",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.9",
+    "mongoose-float": "^1.0.4",
+    "mongoose-unique-validator": "^2.0.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "^9.1.7",
+    "chance": "paulovelho/chancejs#master",
+    "mocha-mongoose": "^1.2.0",
+    "node-mocks-http": "^1.5.8",
+    "nodemon": "^1.18.10",
+    "rosie": "^2.0.1",
+    "sinon": "^4.5.0",
+    "supertest": "^3.0.0"
+  }
+}

@@ -1,0 +1,5 @@
+configs/*
+!configs/general.js
+!configs/client.js.sample
+node_modules
+package-lock.json
